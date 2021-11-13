@@ -25,7 +25,8 @@ I have just put placeholders to write test cases but didn't test the code in BMI
 
 ########################## Infrastructure Deployment ####################################
 
-1. Created Dockerfile for making the application to scale by deploying it in Kubernetes or AWS ECS by containerizing the application. Created sample Jenkinsfile also to push the container to AWS ECR.
-2. Login to docker hub with credentails and build docker image : docker build -t test/image-name:latest
-3. Docker image push to AWS ECR/public docker hub : docker push test/image-name:latest
+1. Created Dockerfile for making the application to scale by deploying it in Kubernetes or AWS ECS by containerizing the application. 
+2. Created sample Jenkinsfile also to push the container to AWS ECR.
+3. Login to docker hub with credentails and build docker image : docker build -t test/image-name:latest
+4. Docker image push to AWS ECR/public docker hub : docker push test/image-name:latest
 
