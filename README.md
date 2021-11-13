@@ -17,9 +17,9 @@ Output looks like below:
 ####################### UNIT-TEST ####################
 1. Write all unittests inside Testing class and run the following command :
 
-python3 -m unittest Basic_Test.Testing
+   python3 -m unittest Basic_Test.Testing
 
-Which gives the report of failed tests and Ok tests and errors.
+   Which gives the report of failed tests and Ok tests and errors.
 
 I have just put placeholders to write test cases but didn't test the code in BMI calculator dude to lack of time. Given in the job, I should be able to pick up and write test cases without a doubt.
 
