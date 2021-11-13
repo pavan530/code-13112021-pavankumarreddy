@@ -10,8 +10,8 @@ Output looks like below:
 ----------------------------------------------------------------------------------------------------------
 |   Gender | HeightCm  | WeightKg  | BMI      |    BMI Range(kg/m2) |   Health risk |   BMI Category      |
 -----------------------------------------------------------------------------------------------------------
-0    Male  |     171   |     96    |56.140351 |    40 and above     |Very high risk | Very severely obese | 
-1  Female  |     166   |     62    |37.349398 |       35 - 39.9     |  High risk    |   Severely obese    |
+|    Male  |     171   |     96    |56.140351 |    40 and above     |Very high risk | Very severely obese | 
+|  Female  |     166   |     62    |37.349398 |       35 - 39.9     |  High risk    |   Severely obese    |
 -----------------------------------------------------------------------------------------------------------
 
 ####################### UNIT-TEST ####################
