@@ -1,8 +1,8 @@
 #####################BMI Calculator########################
 1. Added 3 extra columns along with existing data as per requirements mentioned in the tasks. 
 
-How to Run :
------------
+How to Run in stand-alone machine:
+---------------------------------
 1.  python3 bmicalculator.py
 
 Output looks like below:
@@ -23,5 +23,7 @@ I have just put placeholders to write test cases but didn't test the code in BMI
 
 ########################## Infrastructure Deployment ####################################
 
-1, Created Dockerfile for making the application to scale by deploying it in Kubernetes or AWS ECS by containerizing the application. Created sample Jenkinsfile also to push the container to AWS ECR.
+1. Created Dockerfile for making the application to scale by deploying it in Kubernetes or AWS ECS by containerizing the application. Created sample Jenkinsfile also to push the container to AWS ECR.
+2. Login to docker hub with credentails and build docker image : docker build -t test/image-name:latest
+3. Docker image push to AWS ECR/public docker hub : docker push test/image-name:latest
 
